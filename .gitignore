@@ -1,0 +1,36 @@
+# 仓颉项目
+
+# 编译产物
+*.cj
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# 构建目录
+build/
+target/
+output/
+
+# 依赖目录
+node_modules/
+vendor/
+.cjpm/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志
+*.log
+
+# 环境文件
+.env
+.env.local
+
+# 临时文件
+*.tmp
+*.bak
