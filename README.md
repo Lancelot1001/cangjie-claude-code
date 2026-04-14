@@ -7,7 +7,7 @@
 
 ## 项目简介
 
-本项目为仓颉语言 1.0.5 版本提供 Claude Code 规则集，参考 [everything-claude-code](https://github.com/Actions-Open-AGI/everything-claude-code) 的规则结构构建。
+本项目为仓颉语言 1.0.5 版本提供 Claude Code 规则集
 
 ## 语言版本
 
@@ -27,7 +27,7 @@
 
 ## 快速开始
 
-### 安装
+### 命令行安装
 
 ```bash
 # 创建目标目录
@@ -39,6 +39,10 @@ git clone https://github.com/Lancelot1001/cangjie-claude-code.git
 # 安装规则
 cp -r cangjie-claude-code/rules/cangjie ~/.claude/rules/cangjie
 ```
+
+### 图形界面安装
+
+将项目中rules里的cangjie文件夹复制到~/.claude/rules（若没有则手动创建）
 
 ### 使用
 
@@ -160,7 +164,6 @@ cangjie-claude-code/
 
 - [仓颉语言官网](https://cangjie-lang.cn)
 - [仓颉语言官方文档](https://cangjie-lang.cn/docs)
-- [everything-claude-code](https://github.com/Actions-Open-AGI/everything-claude-code)
 
 ## 许可证
 
