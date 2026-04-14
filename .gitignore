@@ -33,4 +33,7 @@ vendor/
 
 # 临时文件
 *.tmp
-*.bakCLAUDE.md
+*.bak
+
+# 项目文件
+CLAUDE.md
